@@ -1,0 +1,154 @@
+body{
+    background: url(img/emperador2.jpg) center center fixed no-repeat;
+    background-size: 100% 100%;
+    
+}
+.menu{
+    width: 200px;
+    height: 75vh;
+    margin: auto;
+    margin-top: 100px;
+}
+.menu>div{
+    background-color: rgba(98, 98, 98, 0.685);
+    width: 250px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.menuA{
+    color: yellow;
+    
+    font-size: large;
+    /* margin: auto;
+    margin-top: 40px; */
+}
+/* APARTADO PARA AGREGAR EL NIVEL */
+.nivel{
+    width: 50%;
+    margin: auto;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+.tituloF{
+    text-align: center;
+    background-color: rgba(80, 181, 249, 0.678);
+    color: yellow;
+    font-weight: bold;
+    font-size: larger;
+}
+.enviarNivel{
+    text-align: center;
+}
+/* APARTADO GESTION TIENDA */
+.tienda{
+    width: 50%;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    margin: auto;
+}
+.inputImg{
+    text-align: center;
+}
+.enviarArticulo{
+    text-align: center;
+}
+/* APARTADO GESTION USUARIOS */
+.mostrarUsuarios{
+    width: 80%;
+    height: 95vh;
+    margin: auto;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: calc(.2vw + .2vh);
+   
+}
+.usuarioG{
+    background-color: rgba(128, 128, 128, 0.794);
+    border: 2px solid black;
+    border-radius: 25px;
+    border-style: dashed;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.link-info:hover{
+    color: #0fa9c7;
+}
+.imgUsuario{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.imgUsuario>img{
+    width: 100%;
+    height: 100%;
+}
+.right{
+   justify-content: right;
+   padding: 20px;
+   width: 25%;
+}
+.middle{
+    width: 50%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 1px;
+    text-align: center;
+}
+.left{
+    width: 25%;
+    margin: auto;
+}
+.paginas{
+    text-align: center;
+}
+.paginas>a{
+    font-size: large;
+}
+.comentarios{
+    color: yellow;
+    font-size: large;
+    text-align: center;
+    margin: 0px;
+}
+.comentariosp{
+    margin: 0px;
+    text-align: center;
+}
+/* APARTADO ENVIAR EMAIL */
+.enviarEmail{
+    width: 50%;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    margin: auto;
+}
+/* APARTADO MODIFICAR USUARIO */
+.modificarUsuario{
+    width: 80%;
+    margin: auto;
+    padding: 10vh;
+}
+.modificacion{
+    padding: 25px;
+}
+.modificacion>*{
+    margin: auto;
+    width: 50%;
+}
+.imgUsuarioM{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.imgUsuarioM>img{
+    width: 100%;
+    height: 100%;
+}

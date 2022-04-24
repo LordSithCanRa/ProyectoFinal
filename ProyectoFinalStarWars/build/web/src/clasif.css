@@ -1,0 +1,31 @@
+
+
+.clasificaciones{
+    min-height: 90vh;
+    background-color: burlywood;
+    padding: 20px;
+}
+.clasificaciones>table{
+    margin: auto;
+    max-width: 1000px;
+}
+.titulo1{
+    display: block;
+}
+.tituloRes{
+    display: none;
+}
+@media (max-width: 500px) {
+    .titulo1{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .tituloRes{
+        display: block;
+    }
+    #monedas{
+        display: none;
+    }
+}
